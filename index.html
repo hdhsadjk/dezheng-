@@ -4,43 +4,42 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#2457a6">
-<title>得正｜圖片展示頁</title>
+<title>得正｜活動圖片展示頁</title>
 <style>
-:root{--blue:#2457a6;--deep:#173f83;--cream:#f4f0e8;--ink:#26364d}
+:root{--blue:#2457a6;--cream:#f3eee5;--ink:#26364d}
 *{box-sizing:border-box}
-body{margin:0;background:linear-gradient(145deg,#e9edf3,#f5f0e8 60%,#dce6f4);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;color:var(--ink)}
-header{background:var(--blue);color:#fff;text-align:center;padding:20px 14px;box-shadow:0 5px 18px #173f8326}
+body{margin:0;background:linear-gradient(145deg,#e8edf5,#f5f0e8 58%,#dce7f6);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;color:var(--ink)}
+header{background:var(--blue);color:#fff;text-align:center;padding:22px 16px;box-shadow:0 5px 18px #173f8326}
 .brand{font-size:clamp(27px,5vw,38px);font-weight:800;letter-spacing:.16em}
-.sub{font-size:13px;letter-spacing:.04em;margin-top:5px}
+.subtitle{font-size:13px;letter-spacing:.05em;margin-top:5px}
 .notice{width:min(900px,calc(100% - 24px));margin:16px auto;padding:10px 14px;border:1px solid #d6b77b;background:#fff8e8;border-radius:10px;color:#664a19;font-size:13px;line-height:1.65}
-main{width:min(940px,calc(100% - 24px));margin:20px auto 34px}
+main{width:min(940px,calc(100% - 24px));margin:22px auto 34px}
 .card{background:#fff;border-radius:18px;overflow:hidden;margin:0 0 22px;box-shadow:0 12px 30px #183b6c17;border:1px solid #e4e9f1}
 img{display:block;width:100%;height:auto}
-.claim{display:block;text-decoration:none;color:inherit}
-.claim img{width:100%}
-.claim-cta{display:block;text-align:center;background:#f6d400;color:#111;font-weight:800;font-size:22px;letter-spacing:.08em;padding:15px 18px}
-.claim:focus-visible{outline:4px solid #f4c400;outline-offset:3px}
+.claim-link{display:block;color:inherit;text-decoration:none}
+.claim-link:focus-visible{outline:4px solid #f4c400;outline-offset:3px}
+.cta{display:block;background:#f6d400;color:#111;text-align:center;font-size:22px;font-weight:800;letter-spacing:.08em;padding:16px 18px}
 .caption{text-align:center;padding:10px 14px 16px;font-size:13px;color:#52627a}
 footer{text-align:center;padding:0 16px 28px;color:#5b6880;font-size:12px;line-height:1.7}
-@media(min-width:700px){main{margin-top:24px}.card{margin-bottom:26px}}
+@media(min-width:700px){main{margin-top:26px}.card{margin-bottom:26px}}
 </style>
 </head>
 <body>
 <header>
   <div class="brand">得正</div>
-  <div class="sub">OOLONG TEA PROJECT · 圖片展示頁</div>
+  <div class="subtitle">OOLONG TEA PROJECT · 活動圖片展示</div>
 </header>
-<div class="notice">非官方自製圖片展示與跳轉頁，未經品牌官方授權或認證；本頁不代表得正官方。優惠內容及可用性請以品牌官方公告為準。</div>
+<div class="notice">非官方自製圖片展示與跳轉頁，未經品牌官方授權或認證；本頁不代表得正官方。優惠內容及適用方式請以品牌官方公告為準。</div>
 <main>
   <section class="card">
-    <a class="claim" href="https://lin.ee/rhk0l8g" target="_blank" rel="noopener noreferrer" aria-label="點擊前往外部 LINE 連結">
-      <img src="claim.png" alt="活動圖片，點擊圖片可前往外部 LINE 連結">
-      <span class="claim-cta">點擊領取／前往 LINE</span>
+    <a class="claim-link" href="https://lin.ee/rhk0l8g" target="_blank" rel="noopener noreferrer" aria-label="點擊前往外部 LINE 連結">
+      <img src="claim.png" alt="飲品優惠圖片；點擊圖片前往外部 LINE 連結">
+      <span class="cta">點擊領取／前往 LINE</span>
     </a>
-    <div class="caption">點擊上方圖片或按鈕，將開啟外部 LINE 連結。</div>
+    <div class="caption">點擊上方圖片或黃色按鈕，將開啟外部 LINE 連結。</div>
   </section>
-  <section class="card"><img src="drink.png" alt="得正飲品照片"></section>
-  <section class="card"><img src="menu.png" alt="得正飲品菜單"></section>
+  <section class="card"><img src="drink-orange.png" alt="得正橙黃色飲品照片"></section>
+  <section class="card"><img src="drink-milk-tea.png" alt="得正奶茶飲品照片"></section>
 </main>
 <footer>此頁為自製圖片展示與連結頁，並非品牌官方網站；未提供或暗示官方認證。</footer>
 </body>
